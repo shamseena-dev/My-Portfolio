@@ -109,12 +109,12 @@ header .navbar li a{
 	
 }
 #homePage{
-	background-image: url("./images/smoke.jpg");
+	background-image: url("./images/notebook.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	overflow-x: hidden;
 	align-content: center;
-	filter:blur(1px);
+	/*filter:blur(1px);*/
 	
 
 }
