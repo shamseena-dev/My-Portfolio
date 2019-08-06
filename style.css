@@ -1,0 +1,410 @@
+/* Extra small devices (phones, 600px and down) */
+
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box; 
+}
+
+body{
+	
+	overflow-x: hidden;
+	font-family: 'Roboto Mono', monospace;
+
+
+}
+h2{
+	text-shadow: 2px 2px 4px #0f0f0f;
+	padding-top:40px;
+	padding-bottom: 30px;
+
+}
+section{
+	
+	
+	text-align: center;
+	
+}
+
+/* Navigation Bar*/
+
+.headerClass{
+	display:flex;
+	flex-direction: row;
+	
+	justify-content: flex-end;
+	height:auto;
+	position:fixed;
+	top:0px;
+	width:100%;
+	z-index:1; 
+	background-color: black;
+
+}
+/*
+.logo{
+	color:white;
+}
+*/
+.navbar{
+	
+	margin-top:0px;
+	display:flex; 
+	flex-direction: row;
+}
+
+
+.iconSelect{
+	background-color: black;
+	
+	max-height:100%;
+	cursor: pointer;
+}
+
+.navbar .burger,.navbar .closeIcon{
+	background-color: black;
+	padding:8px;
+	display: none;
+	color:grey;
+}
+
+.navbar ul{
+	display:flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	list-style: none;
+}
+.navbar ul li{
+	padding:10px;
+}
+.navbar ul  a{
+	text-decoration: none;
+	color:white;
+}
+header .navbar li a{
+	color:white;
+	padding-right:25px;
+	font-size: 1em;
+	font-family: 'Signika', sans-serif;
+	letter-spacing: .1rem;
+	text-transform: uppercase;
+
+	text-decoration:none;
+}
+.navbar ul a:hover{
+	color:yellow;
+}
+.navbar ul a:active{
+	color:yellow;
+}
+
+/***** Home  Page ****/
+#homePage{
+	
+	width:100%;
+/*	height:93vh; */
+    height:100vh;
+	margin:auto;
+	
+}
+#homePage{
+	background-image: url("./images/smoke.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow-x: hidden;
+	align-content: center;
+	filter:blur(1px);
+	
+
+}
+
+
+.homePageFlex{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: center;
+	position:absolute;
+	min-width:50%;
+	min-height:50%;
+	top:25%;
+	margin:auto;
+	left:25%;
+
+}
+
+
+
+
+.homePageFlex h1{
+	font-family: 'Pacifico', cursive;
+	font-size: 2.4em;
+	padding:5px 3px 0px 3px;
+	color: white;
+	text-shadow: 2px 2px 4px #0f0f0f;
+	text-align: left;
+	letter-spacing: .1em;
+
+
+
+}
+
+
+
+
+.homePageFlex button{
+		
+	background-color: transparent;
+	/*border:2px solid #155c61;*/
+	border:2px solid yellow;
+	font-weight: 400;
+	
+	border-radius: 10px;
+	margin-top: 20px;
+	padding:8px 15px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	font-family: 'Signika', sans-serif;
+	letter-spacing: .2em;
+	color: white;
+	cursor:pointer;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+	
+	
+
+
+}
+.homePageFlex button a{
+	text-decoration: none;
+	color:white;
+}
+.homePageFlex button:hover{
+	
+	border:2px solid white;/	.
+}
+
+
+/*About Me */
+#aboutMe{
+	background-color: #ccc;
+	text-align: center;
+	display:flex;
+	flex-direction: column;
+
+}
+#aboutMe h2{
+	padding-top: 40px;
+	padding-bottom:20px;
+	font-family: 'Roboto Mono', monospace;
+
+
+}
+#aboutMe p{
+	text-align: center;
+	font-size: 1.1em;
+	font-family: 'Roboto Mono', monospace;
+	padding-bottom:50px;
+	padding-left:25px;
+	padding-right:25px;
+
+
+}
+
+/*Skills*/
+
+.skills{
+	background-color: white;
+	text-align: center;
+	margin-bottom: 60px;
+
+
+	
+
+	
+}
+.skills h2{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color:black;
+	margin-top:20px;
+	font-family: 'Roboto Mono', monospace;
+
+
+}
+.iconCard p{
+	font-family: 'Signika', sans-serif;
+	letter-spacing: .2em;
+}
+.skillsFlexContainer{
+	
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.iconCard{
+	background-color: rgba(255, 255, 0,0.6);
+	padding:10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: 45px;
+}
+.skills h3{
+	padding:10px 10px;
+}
+
+/*projects*/
+.projects{
+	background-color: rgba(255, 255, 0,0.5);
+	margin-bottom: 0px;
+}
+.projectsFlexContainer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.projectCard button {
+  background-color: #3f3f3f; 
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.disabled{
+	opacity:0.8;
+	cursor:not-allowed !important;
+
+}
+div.projectCard {
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  background-color: white;
+  padding-bottom: 10px;
+  margin:25px;
+
+}
+.projectCard img{
+	height:50%;
+}
+
+div.detailsContainer {
+  padding: 10px;
+}
+div.detailsContainer button a{
+	text-decoration:none;
+	color:white;
+
+}
+div.projects{
+	
+	padding-bottom: 50px;
+}
+
+
+/*footer*/
+footer section{
+	background-color: grey;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+footer a{
+	text-decoration: none;
+	color:black;
+}
+
+footer a:hover{
+	color:yellow;
+}
+
+div.copyright{
+	
+	color:rgba(0,0,0,0.5);
+}
+
+
+
+/****For smaller screens (to make it responsive)**/
+
+@media screen and (max-width: 800px){
+	.headerClass{
+		display:block;
+		
+		min-height:50px;
+
+	}
+	/*
+	.logo{
+		position:fixed;
+		left:45%;
+	}
+	*/
+	.navbar ul{
+		
+  	  	display:flex ;
+		flex-direction: column;
+
+	}
+	.navbar .navDiv{
+		transform: translateX(100%);
+		transition: transform 0.2s ease-in;
+
+
+	}
+	.navbar .navDiv{
+		position:absolute;
+		top:50px; /*with respect to its previus or parent?! */ 
+		right:0px;
+		background-color: rgba(0,0,0,0.9);
+		
+	}
+
+	.headerClass .navbar .navLinks-onScreen{
+		transform: translateX(0%);
+	}
+	.navbar .burger{
+		display: block;
+		
+
+		margin-right:10px;
+
+	}
+
+	.navbar .closeIcon{
+		display: none;
+		margin-right:auto;
+
+		
+	}
+	.navbar{
+		display:flex;
+		justify-content: flex-end;
+	}
+
+	.closeOnly .burger{
+		display:none;
+	}
+	.closeOnly .closeIcon{
+		display:block;
+		margin-right: 10px;
+	}
+	.homePageFlex h1{
+		font-size: 2em;
+	   padding:3px 2px 0px 2px;
+
+
+	
+}
