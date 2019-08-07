@@ -316,6 +316,10 @@ div.projects{
 
 
 /*footer*/
+#contactSection .socialIcons h3{
+	font-family: 'Pacifico', cursive;
+	color:rgba(0,0,0,0.7);
+}
 footer section{
 	background-color: grey;
 	padding-top: 30px;
@@ -326,13 +330,22 @@ footer a{
 	color:black;
 }
 
+footer .contactMe{
+	color:rgba(0,0,0,0.7);
+}
+footer .gmail{
+	font-family: 'Roboto Mono', monospace;
+	color:rgba(0,0,0,0.8);
+	padding-bottom: 20px;
+
+}
 footer a:hover{
 	color:yellow;
 }
 
-div.copyright{
+div.copyright .copyrightInfo{
 	
-	color:rgba(0,0,0,0.5);
+	color:rgba(0,0,0,0.7);
 }
 
 
