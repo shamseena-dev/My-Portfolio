@@ -92,10 +92,10 @@ header .navbar li a{
 
 	text-decoration:none;
 }
-.navbar ul a:hover{
+.navbar ul a:hover {
 	color:yellow;
 }
-.navbar ul a:active{
+.navbar ul a:active {
 	color:yellow;
 }
 
@@ -417,5 +417,8 @@ div.copyright .copyrightInfo{
 	   padding:3px 2px 0px 2px;
 
 
-	
+	}
+	#homePage{
+	background-image: url("./images/notebook_smallscreen.jpg");
+	}
 }
