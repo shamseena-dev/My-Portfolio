@@ -14,7 +14,7 @@ body{
 
 
 }
-h2{
+section h2{
 	text-shadow: 2px 2px 4px #0f0f0f;
 	padding-top:40px;
 	padding-bottom: 30px;
@@ -330,9 +330,7 @@ footer a{
 	color:black;
 }
 
-footer .contactMe{
-	color:rgba(0,0,0,0.7);
-}
+
 footer .gmail{
 	font-family: 'Roboto Mono', monospace;
 	color:rgba(0,0,0,0.8);
