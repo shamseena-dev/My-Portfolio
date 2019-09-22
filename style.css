@@ -109,7 +109,7 @@ header .navbar li a{
 	
 }
 #homePage{
-	background-image: url("./images/notebook.jpg");
+	background-image: url("./images/silver.jpg"); 
 	background-size: cover;
 	background-repeat: no-repeat;
 	overflow-x: hidden;
@@ -139,10 +139,11 @@ header .navbar li a{
 
 
 .homePageFlex h1{
+	animation: slide-caption 1s linear 1s;
 	font-family: 'Pacifico', cursive;
 	font-size: 2.4em;
 	padding:5px 3px 0px 3px;
-	color: white;
+	color: black;
 	text-shadow: 2px 2px 4px #0f0f0f;
 	text-align: left;
 	letter-spacing: .1em;
@@ -155,7 +156,7 @@ header .navbar li a{
 
 
 .homePageFlex button{
-		
+	animation: button-spin 1s linear 2s;
 	background-color: transparent;
 	/*border:2px solid #155c61;*/
 	border:2px solid yellow;
@@ -169,7 +170,7 @@ header .navbar li a{
 	font-size: 1.2em;
 	font-family: 'Signika', sans-serif;
 	letter-spacing: .2em;
-	color: white;
+	color: black;
 	cursor:pointer;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	
@@ -180,7 +181,7 @@ header .navbar li a{
 }
 .homePageFlex button a{
 	text-decoration: none;
-	color:white;
+	color:black;
 }
 .homePageFlex button:hover{
 	
@@ -253,7 +254,8 @@ header .navbar li a{
 	justify-content: space-around;
 }
 .iconCard{
-	background-color: rgba(255, 255, 0,0.6);
+	animation: slide 1s linear 5s;
+	background-color: rgba(255, 255, 0,0.5);
 	padding:10px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	margin: 45px;
@@ -421,7 +423,36 @@ div.copyright .copyrightInfo{
 
 
 	}
+	/*
 	#homePage{
-	background-image: url("./images/notebook_smallscreen.jpg");
-	}
+	background-image: url("./images/notebook_smallscreen.jpg"); 
+	}*/
 }
+
+@keyframes button-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(130%);;
+  }
+  to {
+      transform: translateX(0%);;
+  }
+}
+
+@keyframes slide-caption {
+  from {
+    transform: translateX(-30%);;
+  }
+  to {
+      transform: translateX(0%);;
+  }
+}
+
