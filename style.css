@@ -454,7 +454,7 @@ div.copyright .copyrightInfo{
 
 @keyframes slide-caption {
   from {
-    transform: translateX(-50%);;
+    transform: translateX(-10%);;
   }
   to {
       transform: translateX(0%);;
