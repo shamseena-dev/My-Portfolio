@@ -108,6 +108,10 @@ header .navbar li a{
 	margin:auto;
 	
 }
+#particles-js{
+	height:90vh;
+
+}
 #homePage{
 	background-image: url("./images/silver.jpg"); 
 	background-size: cover;
