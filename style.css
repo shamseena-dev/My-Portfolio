@@ -152,16 +152,16 @@ header .navbar li a{
 }
 
 .homePageFlex h1.h1First{
-	animation: slide-caption 0.5s linear 1s;
+	animation: slide-caption 0.5s ease-in 1s;
 }
 .homePageFlex h1.h1Second{
-	animation: slide-caption 1s linear 1.5s;
+	animation: slide-caption 1s ease-in 1.5s;
 }
 
 
 
 .homePageFlex button{
-	animation: button-spin 1s linear 2.5s;
+	animation: button-spin 1s ease-in 2.5s;
 	background-color: transparent;
 	/*border:2px solid #155c61;*/
 	border:2px solid yellow;
