@@ -93,10 +93,10 @@ header .navbar li a{
 	text-decoration:none;
 }
 .navbar ul a:hover {
-	color:yellow;
+	color: #a76676;
 }
 .navbar ul a:active {
-	color:yellow;
+	color: #a76676;
 }
 
 /***** Home  Page ****/
@@ -168,7 +168,7 @@ header .navbar li a{
 	animation: button-spin 1s ease-in 2.5s;
 	background-color: transparent;
 	/*border:2px solid #155c61;*/
-	border:2px solid yellow;
+	border:2px solid #883444;
 	font-weight: 400;
 	
 	border-radius: 10px;
@@ -230,10 +230,6 @@ header .navbar li a{
 	background-color: white;
 	text-align: center;
 	margin-bottom: 60px;
-
-
-	
-
 	
 }
 .skills h2{
@@ -246,10 +242,13 @@ header .navbar li a{
 
 }
 .js{
-	color:grey;
+	color: black;
 	font-size:80px;
 	font-weight:bold;
 	
+}
+#skillsSection{
+	background-color: #ded9d9;
 }
 .iconCard p{
 	font-family: 'Signika', sans-serif;
@@ -264,7 +263,8 @@ header .navbar li a{
 }
 .iconCard{
 	animation: slide 1s linear 5s;
-	background-color: rgba(255, 255, 0,0.5);
+	background-color: #ded9d9 ;
+	/*here #883444 rgba(255, 255, 0,0.5);*/
 	padding:10px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	margin: 45px;
@@ -275,7 +275,8 @@ header .navbar li a{
 
 /*projects*/
 .projects{
-	background-color: rgba(255, 255, 0,0.5);
+	background-color: #883444;
+	/*herergba(255, 255, 0,0.5);*/
 	margin-bottom: 0px;
 }
 .projectsFlexContainer{
@@ -340,7 +341,7 @@ div.projects{
 	color:rgba(0,0,0,0.7);
 }
 footer section{
-	background-color: grey;
+	background-color: #353c44;
 	padding-top: 30px;
 	padding-bottom: 10px;
 }
@@ -357,7 +358,8 @@ footer .gmail{
 
 }
 footer a:hover{
-	color:yellow;
+	color: #883444;
+	/* #001323;*/
 }
 
 div.copyright .copyrightInfo{
