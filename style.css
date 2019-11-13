@@ -282,6 +282,7 @@ header .navbar li a{
 }
 .iconCard:hover{
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+	background-color: #883444;
 }
 
 .iconCard h3{
@@ -349,6 +350,7 @@ div.projectCard {
 
 .projectCard:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+  background-color: #977f7f;
 }
 .projectCard img{
 	height:auto;
