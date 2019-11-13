@@ -18,7 +18,10 @@ section h2{
 	text-shadow: 2px 2px 4px #0f0f0f;
 	padding-top:40px;
 	padding-bottom: 30px;
-
+	color: white;
+}
+.projects h2{
+	color: black;
 }
 section{
 	
@@ -136,6 +139,11 @@ header .navbar li a{
 	top:25%;
 	margin:auto;
 	left:25%;
+	background-color: rgba(0,0,0,0.4);
+	color: white;
+	padding:20px 30px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+	border-radius: 5px;
 
 }
 
@@ -245,6 +253,7 @@ header .navbar li a{
 	color:black;
 	margin-top:20px;
 	font-family: 'Roboto Mono', monospace;
+	color: white;
 
 
 }
