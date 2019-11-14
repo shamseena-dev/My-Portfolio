@@ -136,9 +136,11 @@ header .navbar li a{
 	position:absolute;
 	min-width:50%;
 	min-height:50%;
-	top:25%;
+	top:15%;
+	bottom: 15%;
 	margin:auto;
-	left:25%;
+	left:15%;
+	right:15%;
 	background-color: rgba(0,0,0,0.4);
 	color: white;
 	padding:20px 30px;
@@ -488,6 +490,15 @@ div.copyright .copyrightInfo{
 	   padding:3px 2px 0px 2px;
 
 
+	}
+	#homePage{
+		height: auto;
+	}
+	.homePageFlex button{
+		font-size: 1em;
+	}
+	#homePage{
+		overflow-y: hidden;
 	}
 	/*
 	#homePage{
