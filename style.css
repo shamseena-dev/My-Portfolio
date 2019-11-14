@@ -15,7 +15,7 @@ body{
 
 }
 section h2{
-	text-shadow: 2px 2px 4px #0f0f0f;
+	/*text-shadow: 2px 2px 4px #0f0f0f;*/
 	padding-top:40px;
 	padding-bottom: 30px;
 	color: white;
