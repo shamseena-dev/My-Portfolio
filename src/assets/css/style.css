@@ -116,7 +116,7 @@ header .navbar li a{
 
 }
 #homePage{
-	background-image: url("./images/the-polygon.jpg"); 
+	background-image: url("../images/the-polygon.jpg"); 
 	background-size: cover;
 	background-repeat: no-repeat;
 	overflow-x: hidden;
@@ -278,7 +278,7 @@ header .navbar li a{
 }
 
 #projectsSection{
-	background-image: url('images/paperBG.jpg');
+	background-image: url('../images/paperBG.jpg');
 }
 /*projects*/
 .projects{
@@ -371,6 +371,12 @@ div.projects{
 	font-family: 'Pacifico', cursive;
 	color:rgba(0,0,0,0.7);
 }
+.socialIcons div{
+	margin:20px;
+}
+.socialIcons div h3{
+    font-family: 'Signika', sans-serif;
+}
 footer section{
 	background-color: #353c44;
 	padding-top: 30px;
@@ -399,6 +405,9 @@ div.copyright .copyrightInfo{
 	color: rgba(255,255,255,0.4);
 }
 
+#copyrightFooter{
+	background-color: black;
+}
 
 
 /****For smaller screens (to make it responsive)**/
