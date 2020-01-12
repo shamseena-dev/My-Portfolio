@@ -148,9 +148,22 @@ header .navbar li a{
 	border-radius: 5px;
 
 }
+.homePageFlex .iconsHomePage{
+	padding:10px;
+	margin : 10px;
+}
 
+.homePageFlex .iconsHomePage a{
+		text-decoration: none;
+		color:black;
+		font-size: 1.5em;
+}
 
-
+.homePageFlex .iconsHomePage a:hover{
+		color: #883444;
+				/* #001323;*/
+			
+}
 
 .homePageFlex h1{
 	font-family: 'Pacifico', cursive;
