@@ -158,6 +158,20 @@ section {
 
 
 	}
+
+	.iconsHomePage{
+	padding:10px;
+	margin : 10px;
+	 a{
+			text-decoration: none;
+			color:black;
+			font-size: 1.2em;
+			&:hover{
+		         color: #883444;
+			}
+			
+      }
+     }
 	button{
 		animation: button-spin 1s ease-in 2.5s;
 		background-color: transparent;
