@@ -291,7 +291,7 @@ header .navbar li a{
 }
 
 #projectsSection{
-	/*background-image: url('../images/paperBG.jpg');*/
+	background-image: url('../images/paperBG.jpg');
 }
 /*projects*/
 .projects{
