@@ -1,4 +1,4 @@
-
+import "../assets/css/style.css";
 const slideNavMenu=()=>{
 	
 	

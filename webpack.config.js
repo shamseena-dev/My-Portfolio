@@ -1,38 +1,56 @@
 const path = require("path");
-const WebPackCleanupPlugin = require("webpack-cleanup-plugin");
+const HTMLWebpackPlugin = require("html-webpack-plugin");
+const WebpackCleanupPlugin = require("webpack-cleanup-plugin");
 
 module.exports = {
-	mode: "development",
-	devtool : "none",
 	entry : {
 		main: "./src/js/script.js",
-		vendor_app : "./src/js/app.js",
-		vendor_particles : "./src/js/particles.js"
+		vendor_particles : "./src/js/particles.js",
+		vendor_app : "./src/js/app.js"
 
 	},
 	module :{
 		rules: [
 		   {
+		   	test: /.\html$/,
+		   	use: ["html-loader"]
+		   },
+		   {
+	      test: /\.m?js$/,
+	      exclude: /(node_modules|bower_components)/,
+	      use: {
+	        loader: 'babel-loader',
+	        options: {
+	          presets: ['@babel/preset-env']
+	        }
+	      }
+	    },
+		   {
 		   	test: /\.css$/,
 		   	use:["style-loader", "css-loader"]
 		   },
-		   {
-		   	test: /\.(svg|png|jpg|gif)$/,
-		   	use: {
-		   		loader: "file-loader",
-		   		options: {
-		   			name: "[name].[ext]",
-		   			outputPath: "images"
-		   		} 
+		    {
+		  test: /\.(svg|png|jpg|gif|JPG)$/,
+		  use: [
+		    {
+		      loader: "file-loader",
+		      options: {
+		        esModule: false,
+		        outputPath: "images",
+		        name: "[name].[ext]"
+		      }
 		    }
-		   }
-
+		  ]
+		}
 		   ]
 	},
 	output : {
 		filename: "[name].js",
 		path : path.resolve(__dirname,"dist")
 	},
-	plugins : [new WebPackCleanupPlugin()]
+	plugins : [new HTMLWebpackPlugin({
+	           	 template: "./src/index.html",
+	           	 filename: "./index.html"
+	           }) ]
 
 }
