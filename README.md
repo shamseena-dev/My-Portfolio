@@ -1,12 +1,12 @@
 # My-Portfolio
 
-Briefing: A Fully Responsive Portfolio Website , built using Flex box, media queries and keyframes; and integrated with Particles.js-a lightweight Javascript Libaray
+Briefing: A Fully Responsive Portfolio Website , built using Flex box, media queries and keyframes; and integrated with Particles.js-a lightweight Javascript Libaray; and Webpack used as build tool/Module Bundler
 
 ## || Javascript
 
 ## || Particles.js
 
-## || Webpack(FrontEnd Build Tool)
+## || Webpack (FrontEnd Build Tool)
 
 ## || NPM (Package Manager)
 
@@ -25,7 +25,7 @@ Briefing: A Fully Responsive Portfolio Website , built using Flex box, media que
 
 ## MediaQueries
 
-##KeyFrames
+## KeyFrames
 
 
 Portfolio website which is fully Responsive for various screen size, built using Flex box, media queries and keyframes.
