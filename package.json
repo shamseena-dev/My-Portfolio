@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/shamseena-dev/My-Portfolio/issues"
   },
-  "homepage": "https://github.com/shamseena-dev/My-Portfolio/",
+  "homepage": "https://github.com/shamseena-dev/My-Portfolio/issues",
   "devDependencies": {
     "@babel/core": "^7.8.3",
     "@babel/preset-env": "^7.8.3",

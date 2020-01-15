@@ -147,6 +147,8 @@ header .navbar li a{
 	padding:20px 30px;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
 	border-radius: 5px;
+	transform-origin: right;
+	transition: 0.5s;
 
 }
 .homePageFlex .iconsHomePage{
