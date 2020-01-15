@@ -116,7 +116,8 @@ header .navbar li a{
 
 }
 #homePage{
-	/*background-image: url("../images/the-polygon.jpg");*/
+	background-image: url("../images/the-polygon.jpg");
+	/*background-image: url("../images/box.png"); */
 	background-size: cover;
 	background-repeat: no-repeat;
 	overflow-x: hidden;
@@ -291,7 +292,8 @@ header .navbar li a{
 }
 
 #projectsSection{
-	background-image: url('../images/paperBG.jpg');
+	/*background-image: url('../images/paperBG.jpg');*/
+	background-color: #e2e2e2;
 }
 /*projects*/
 .projects{
@@ -306,6 +308,11 @@ header .navbar li a{
 	flex-direction: row;
 	justify-content: space-around;
 	flex-wrap: wrap;
+}
+.projectCard .featuredProject{
+	padding: 10px;
+	background-color: red;
+	color: white;
 }
 .projectCard button {
   background-color: #3f3f3f; 
@@ -365,9 +372,13 @@ div.detailsContainer button a{
 }
 
 div.detailsContainer p:first-of-type{
-	/*color: #883444;*/
+		color: white;
+}
+div.detailsContainer p{
 	color: #e2e2e2;
 }
+
+
 div.detailsContainer h3:first-of-type{
 	color: #ececec;
 }

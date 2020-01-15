@@ -275,7 +275,8 @@ section {
 
 .
 #projectsSection{
-	background-image: url('../images/paperBG.jpg');
+	/*background-image: url('../images/paperBG.jpg'); */
+	background-color: #e2e2e2; 
 }
 /*projects*/
 .projects{
@@ -342,13 +343,15 @@ section {
 }
 
 
-
-
 div.detailsContainer {
   padding: 10px;
   p:first-of-type{
 	
 	 color: #e2e2e2;
+   }
+   p{
+	
+	 color: white;
    }
    h3:first-of-type{
 	color: #ececec;
