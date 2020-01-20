@@ -526,6 +526,11 @@ div.copyright .copyrightInfo{
 	.homePageFlex .iconsHomePage a{
 		font-size: 1em;
 	}
+	footer .gmail{
+		margin-left:0;
+		padding-left:0;
+		
+	}
 }
 		
 
