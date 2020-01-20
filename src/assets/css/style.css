@@ -515,9 +515,15 @@ div.copyright .copyrightInfo{
 	background-image: url("./images/notebook_smallscreen.jpg"); 
 	}*/
 }
-
+/***For extra small screen size **/
 @media screen and (max-width: 500px){
 	.homePageFlex h1{
+		font-size: 1.1em;
+	}
+	.homePageFlex button{
+		font-size: 0.8em;
+	}
+	.homePageFlex .iconsHomePage a{
 		font-size: 1em;
 	}
 }
