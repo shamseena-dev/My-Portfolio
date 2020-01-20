@@ -516,6 +516,13 @@ div.copyright .copyrightInfo{
 	}*/
 }
 
+@media screen and (max-width: 500px){
+	.homePageFlex h1{
+		font-size: 1em;
+	}
+}
+		
+
 @keyframes button-spin {
   from {
     transform: rotate(0deg);
