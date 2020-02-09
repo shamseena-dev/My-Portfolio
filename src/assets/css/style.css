@@ -411,7 +411,8 @@ footer section{
 }
 footer a{
 	text-decoration: none;
-	color:black;
+	color: #883444;
+
 }
 
 
@@ -423,7 +424,7 @@ footer .gmail{
 
 }
 footer a:hover{
-	color: #883444;
+	color:white;
 	/* #001323;*/
 }
 
