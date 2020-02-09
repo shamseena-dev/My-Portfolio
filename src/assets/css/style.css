@@ -8,6 +8,7 @@
 }
 html{
 	scroll-behavior: smooth;
+}
 
 body{
 	
@@ -395,16 +396,14 @@ div.projects{
 
 
 /*footer*/
-#contactSection .socialIcons h3{
-	font-family: 'Pacifico', cursive;
-	color:rgba(0,0,0,0.7);
+#contactSection .socialIcons h4{
+	font-family: 'Noto Sans', sans-serif;
+	color:white;
 }
 .socialIcons div{
 	margin:20px;
 }
-.socialIcons div h3{
-    font-family: 'Signika', sans-serif;
-}
+
 footer section{
 	background-color: #353c44;
 	padding-top: 30px;
