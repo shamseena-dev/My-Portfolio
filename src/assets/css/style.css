@@ -160,18 +160,19 @@ header .navbar li a{
 	transition: 0.5s;
 
 }
-.homePageFlex .iconsHomePage{
+.homePageFlex .iconsAtHomePage{
 	padding:10px;
 	margin : 10px;
+	animation: icons 1s linear 1s;
 }
 
-.homePageFlex .iconsHomePage a{
+.homePageFlex .iconsAtHomePage a{
 		text-decoration: none;
 		color: white;
 		font-size: 1.2em;
 }
 
-.homePageFlex .iconsHomePage a:hover{
+.homePageFlex .iconsAtHomePage a:hover{
 		color: #883444;
 				/* #001323;*/
 			
@@ -201,7 +202,7 @@ header .navbar li a{
 
 */
 .homePageFlex button{
-	animation: button-spin 1s ease-in 2.5s;
+	animation: button-spin 1s ease-in ;
 	background-color: transparent;
 	/*border:2px solid #155c61;*/
 	border:2px solid #883444;
@@ -231,6 +232,7 @@ header .navbar li a{
 .homePageFlex button:hover{
 	
 	border:2px solid white;	
+	transform: translateY(-5px);
 }
 
 
@@ -541,7 +543,7 @@ div.copyright .copyrightInfo{
 	.homePageFlex button{
 		font-size: 0.8em;
 	}
-	.homePageFlex .iconsHomePage a{
+	.homePageFlex .iconsAtHomePage a{
 		font-size: 1em;
 	}
 	footer .gmail{
@@ -553,11 +555,31 @@ div.copyright .copyrightInfo{
 		
 
 @keyframes button-spin {
-  from {
+  0% {
     transform: translateX(-90px);
     opacity:0;
   }
-  to {
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+
+  }
+}
+@keyframes icons {
+  0% {
+    transform: translateX(-90px);
+    opacity: 0;
+  }
+  30% {
+    transform: translateX(-50px);
+    opacity: 0.3;
+  }
+  70% {
+    transform: translateX(-20px);
+    opacity: 0.5;
+  }
+
+  100% {
     transform: translateX(0px);
     opacity: 1;
   }
