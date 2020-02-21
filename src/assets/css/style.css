@@ -114,8 +114,14 @@ header .navbar li a{
 	margin:auto;
 	
 }
+.side-color{
+	width:20%;
+	height:100%;
+	background-color: black;
+}
 #particles-js{
 	height:90vh;
+
 
 }
 #homePage{
@@ -549,20 +555,14 @@ div.copyright .copyrightInfo{
 @keyframes button-spin {
   from {
     transform: translateX(-90px);
+    opacity:0;
   }
   to {
     transform: translateX(0px);
+    opacity: 1;
   }
 }
 
-@keyframes slide {
-  from {
-    transform: translateX(130%);;
-  }
-  to {
-      transform: translateX(0%);;
-  }
-}
 
 /*
 @keyframes slide-caption {
